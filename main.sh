@@ -4,7 +4,7 @@
 	end=$3
 	
 	for var_loop in `seq $begin $step $end`; {
-		echo "$[var_loop]"
+		echo "$[var_loop]  "
 	}
 	echo "($[end])"
 }
