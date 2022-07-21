@@ -1,12 +1,12 @@
 [fn]main(){
-	begin=$1
-	step=$2
-	end=$3
+	_begin=$1
+	_step=$2
+	_end=$3
 	
-	for var_loop in `seq $begin $step $end`; {
-		echo "$[var_loop]  "
+	for var_loop in `seq $_begin $_step $_end`; {
+		echo "${var_loop}  "
 	}
-	echo "($[end])"
+	echo "(${_end})"
 }
 
 [fn]main $@
