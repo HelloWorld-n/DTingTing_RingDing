@@ -1,4 +1,4 @@
-[fn]main(){
+[]main(){
 	_begin=$1
 	_step=$2
 	_end=$3
@@ -9,5 +9,5 @@
 	echo "(${_end})"
 }
 
-[fn]main $@
+[]main $@
 
